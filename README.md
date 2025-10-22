@@ -98,7 +98,7 @@ src/
 
 ## 👥 Контакти
 
-- Telegram Bot: [@ct_college_bot](https://t.me/ct_college_bot)
+- Telegram Bot: [@Kharkiv_CT_College_Bot](https://t.me/Kharkiv_CT_College_Bot)
 - Email: support@ctcollege.edu.ua
 
 ## 📄 Ліцензія
