@@ -1,0 +1,51 @@
+.schedule-page {
+  padding-bottom: 20px;
+}
+
+.days-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.days-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.day-tab {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 16px;
+  background: var(--tg-theme-bg-color);
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 80px;
+}
+
+.day-tab.active {
+  background: var(--tg-theme-button-color);
+  border-color: var(--tg-theme-button-color);
+  color: white;
+}
+
+.day-tab:active {
+  transform: scale(0.95);
+}
+
+.day-name {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.day-date {
+  font-size: 18px;
+  font-weight: 700;
+}
