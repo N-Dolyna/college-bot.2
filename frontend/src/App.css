@@ -19,9 +19,9 @@
   --accent-text: rgb(0, 136, 204);
   --accent-wash: rgba(84, 169, 235, 0.1);
   
-  --gradient-hero: radial-gradient(at 53% 78%, hsla(200,100%,50%,0.2) 0px, transparent 50%), 
-                   radial-gradient(at 71% 91%, hsla(210,100%,60%,0.2) 0px, transparent 50%), 
-                   radial-gradient(at 31% 91%, hsla(190,100%,50%,0.15) 0px, transparent 50%);
+  --gradient-hero: radial-gradient(at 53% 78%, hsla(200,100%,70%,0.15) 0px, transparent 50%), 
+                   radial-gradient(at 71% 91%, hsla(210,100%,70%,0.15) 0px, transparent 50%), 
+                   radial-gradient(at 31% 91%, hsla(190,100%,70%,0.12) 0px, transparent 50%);
   
   --gradient-button: linear-gradient(to bottom right, var(--telegram-light), var(--telegram-blue));
 }
