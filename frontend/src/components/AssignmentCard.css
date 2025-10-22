@@ -1,0 +1,94 @@
+.assignment-card {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-left: 4px solid var(--tg-theme-button-color);
+}
+
+.assignment-card.completed {
+  opacity: 0.6;
+  border-left-color: #9e9e9e;
+}
+
+.assignment-card.urgent {
+  border-left-color: #ef5350;
+}
+
+.assignment-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.assignment-check {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.check-icon {
+  color: var(--tg-theme-hint-color);
+  transition: all 0.2s ease;
+}
+
+.check-icon.checked {
+  color: #4caf50;
+}
+
+.assignment-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.assignment-subject {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tg-theme-button-color);
+  margin-bottom: 4px;
+}
+
+.assignment-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--tg-theme-text-color);
+  line-height: 1.4;
+}
+
+.assignment-card.completed .assignment-title {
+  text-decoration: line-through;
+}
+
+.priority-badge {
+  flex-shrink: 0;
+}
+
+.assignment-description {
+  font-size: 14px;
+  color: var(--tg-theme-hint-color);
+  line-height: 1.5;
+  margin-bottom: 12px;
+  padding-left: 36px;
+}
+
+.assignment-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 36px;
+}
+
+.assignment-deadline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--tg-theme-hint-color);
+}
+
+.assignment-deadline.urgent {
+  color: #ef5350;
+  font-weight: 500;
+}
+
+.deadline-icon {
+  flex-shrink: 0;
+}
